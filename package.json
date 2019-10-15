@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rocketseat/unform": "^1.6.1",
+    "axios": "^0.19.0",
+    "formik": "^1.5.8",
     "react": "^16.10.2",
+    "react-data-table-component": "^3.5.3",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-navigation": "^4.0.10",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-scripts start",
