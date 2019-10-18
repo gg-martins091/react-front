@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 import { Form as MyForm } from '@rocketseat/unform';
+export const Content = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background: #f6f6f6;
+`
+
 export const Form = styled(MyForm)`
   width: 400px;
   border: 1px solid #ccc;

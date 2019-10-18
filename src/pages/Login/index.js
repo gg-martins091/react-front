@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Input } from '@rocketseat/unform';
-import { Form } from './styles';
+import { Form, Content } from './styles';
 import * as Yup from 'yup';
 
 import api from '../../services/api';
@@ -29,17 +29,13 @@ export default class Login extends Component {
 
   render() {
     return (
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        padding: '50px'
-      }}>
+      <Content>
         <div style={{
           display: 'flex',
           justifyContent: 'center',
           width: '400px',
           height: '400px',
-          background: '#f1f1f2'
+          background: '#fff'
         }}>
           <Form schema={SigninSchema} onSubmit={this.handleSubmit}>
             <Input name="email" />
@@ -47,7 +43,7 @@ export default class Login extends Component {
             <button type="submit">Login</button>
           </Form>
         </div >
-      </div >
+      </Content>
 
     );
   }
